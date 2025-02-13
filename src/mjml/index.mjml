@@ -34,15 +34,27 @@
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
   </mj-head>
-  <mj-body background-color="#f0f7ee" width="650px">
+  <mj-body background-color="#f0f7ee">
     <mj-section>
       <mj-column>
         <mj-text align="center"><a style="color:#626262;font-size:10px;font-weight:500;line-height:12px" href="{{ mirror}}">Voir la version en ligne</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#626262;font-size:10px;font-weight:500;line-height:12px;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bg+1" padding="20px">
-      <mj-column>
-        <mj-image align="left" padding="0" border="none" width="150px" src="https://i.ibb.co/j9R6yWzM/Log-Sup-Veto-Blanc-1.png" alt="logo Supveto"></mj-image>
+    <mj-section mj-class="bg+1" padding="0px">
+      <mj-column width="100%">
+        <mj-image padding="0" border="none" width="600px" src="https://i.ibb.co/sJ2pB04Y/Sup-Veto-Grand-Partenaire-Benoit2025-1.png" alt=""/>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-image padding="0" border="none" width="600px" src="https://i.ibb.co/9kWypNNL/Bandeau-Newsletter-1.png" alt=""/>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column width="40%">
+        <mj-image padding="0" border="0" src="" href="" alt="carte des 29 écoles Supveto du territoire"> </mj-image>
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text>Title</mj-text>
+        <mj-text>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</mj-text>
+        <mj-button mj-class="bg+11">Nos écoles</mj-button>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px">
@@ -108,7 +120,9 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="#98c98b"></mj-section>
+    <mj-section background-color="#98c98b">
+      <mj-column></mj-column>
+    </mj-section>
     <mj-section background-color="#e0efdc" padding="20px 32px">
       <mj-column width="320px">
         <mj-image width="200px" padding="0" border="none" align="center" target="_blank" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg" href="https://ecosup-campus.com" alt="Logo Ecosup Campus"/>

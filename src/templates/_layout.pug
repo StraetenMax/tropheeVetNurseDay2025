@@ -34,7 +34,7 @@ mjml
             mj-class(name="bg+11" background-color="#EA831E")/
         mj-breakpoint(width="480px")
     //- Body
-    mj-body(background-color='#f0f7ee' width="650px")
+    mj-body(background-color='#f0f7ee')
         //- content
         block content
         //- bloc header
@@ -43,14 +43,14 @@ mjml
         //- bloc formations
             block formations
             include ../includes/_formations
+        //- bloc ecoles
+        block école
+            include ../includes/_ecole
         //- bloc partenaires Hôtellerie
         block partenaires
             include ../includes/_partenaires
-        //- bloc syrendre
-            block cTa
-            include ../includes/_cTa
-        //- bloc argumentaires formations
-        block arg
+        //- bloc partenaires supveto
+        block partenaire01
             include ../includes/_partenaire01
         //- bloc footer
         block footer
