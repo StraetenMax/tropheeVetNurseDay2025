@@ -43,8 +43,6 @@
     <mj-section mj-class="bg+1" padding="0px">
       <mj-column width="100%">
         <mj-image padding="0" border="none" width="600px" src="https://i.ibb.co/sJ2pB04Y/Sup-Veto-Grand-Partenaire-Benoit2025-1.png" alt=""/>
-        <mj-spacer height="20px"></mj-spacer>
-        <mj-image padding="0" border="none" width="600px" src="https://i.ibb.co/9kWypNNL/Bandeau-Newsletter-1.png" alt=""/>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff">
