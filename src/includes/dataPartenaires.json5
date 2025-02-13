@@ -1,0 +1,74 @@
+{
+  "logosList1": [
+        {
+            "image": "https://i.ibb.co/vz8Rrt2/LogoA12.jpg",
+            "alt": "logo Fait Maison"
+        },
+        {
+            "image": "https://i.ibb.co/z5ZgwTw/LogoA11.jpg",
+            "alt": "logo de l'Hôtel l'Ermitage Gantois"
+        },
+        {
+            "image": "https://i.ibb.co/L85ZfG1/LogoA10.jpg",
+            "alt": "logo de la chaîne d'Hôtels Best Western"
+        },
+        {
+            "image": "https://i.ibb.co/n6nKRBn/LogoA9.jpg",
+            "alt": "logo Small Luxury Hotels"
+        }
+  ],
+  "logosList2": [
+        { 
+            "image": "https://i.ibb.co/VHwDR7d/LogoA13.jpg",
+            "alt": "logo de la chaîne de restauration les 3 Brasseurs"
+        },
+        {
+            "image": "https://i.ibb.co/pRydwkm/LogoA1.jpg",
+            "alt": "logo du groupe Accord"
+        },
+        {
+            "image": "https://i.ibb.co/8z2m91y/LogoA2.jpg",
+            "alt": "logo du groupe Global Hôtel Alliance"
+        },
+        {
+            "image" : "https://i.ibb.co/gw0vV3g/LogoA3.jpg",
+            "alt": "logo l'hôtel l'Arbre voyageur"
+        }
+  ],  
+    "logosList3" : [
+        {
+            "image": "https://i.ibb.co/QXFVhNW/LogoA4.jpg",
+            "alt": "logo de l'hôtel Carlton de Lille"
+        },
+        {
+            "image": "https://i.ibb.co/zr8TQyS/LogoA5.jpg",
+            "alt": "logo de l'Hôtel Lille Europe HLE"
+        },
+        {
+            "image": "https://i.ibb.co/DKZDvtz/LogoA6.jpg",
+            "alt": "logo de l'Hôtel Restaurant du Couvent des Minimes"
+        },
+        {
+            "image": "https://i.ibb.co/VYL89kZ/LogoA7.jpg",
+            "alt": "logo de la Sodexo"
+        }
+    ],
+    "logosList4": [
+        {
+            "image": "https://i.ibb.co/ZXr5mLx/LogoA8.jpg",
+            "alt": "logo du Najeti - Hôtel Lille Nord"
+        },
+        {
+            "image": "https://i.ibb.co/qNZP5dP/LogoA14.jpg",
+            "alt": "logo Hôtel Moustache"
+        },
+        {
+            "image": "https://i.ibb.co/PGss0H7/Hotellerie21.jpg",
+            "alt": "logo du restaurant le Septentrion"
+        },
+        {
+            "image": "https://i.ibb.co/JrbkKBG/Hotellerie20.jpg",
+            "alt": "logo de l'Hôtel Le Bristol"
+        }
+    ]
+}

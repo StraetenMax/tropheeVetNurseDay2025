@@ -1,0 +1,57 @@
+mjml
+    //- Head
+    mj-head
+        mj-title Trophée Vet Nurse Day 2025
+        mj-font(name='Roboto' href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap')
+        mj-font(name="fontAwesome" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css")/
+        mj-raw.
+            <meta name='color-scheme' content='light'/>
+            <meta name='supported-color-schemes' content='light'/>
+            <meta name="format-detection" content="telephone=no"/>
+            <meta name="format-detection" content="date=no"/>
+            <meta name="format-detection" content="address=no"/>
+            <meta name="format-detection" content="email=no"/>
+        mj-attributes
+            mj-all(font-family='Roboto, Arial, Helvetica,sans serif')/
+            mj-class(name='T+3' font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size='36px' line-height='36px' font-weight='900')/
+            mj-class(name='T+2-700' font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size='24px' line-height='28px' font-weight='700')/
+            mj-class(name='T+2-300' font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size='24px' line-height='28px' font-weight='300')/
+            mj-class(name='T700' font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size='16px' line-height='20px' font-weight='700')/
+            mj-class(name='T500' font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size='16px' line-height='20px' font-weight='500')/
+            mj-class(name='T400' font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size='16px' line-height='20px' font-weight="400")/
+            mj-class(name='T-1' font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size='13px' line-height='17px' font-weight="400")/
+            mj-class(name='T-2' font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size='10px' line-height='12px' font-weight="300")/
+            mj-class(name='L' align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0")
+            //- Black colors text
+            mj-class(name="cT+1" color="#1a1a1a")/
+            mj-class(name="cT+0" color="#4d4d4d")/
+            //- Colors
+            mj-class(name="c-0" color="#C21718")/
+            mj-class(name="bg-0" background-color="#C21718")/
+            mj-class(name="c+11" color="#f9d2d2")/
+            mj-class(name="c+1" color="#74151E")/
+            mj-class(name="bg+1" background-color="#74151E")/
+            mj-class(name="bg+11" background-color="#f9d2d2")/
+        mj-breakpoint(width="480px")
+    //- Body
+    mj-body(background-color='#f2f2f2' width="650px")
+        //- content
+        block content
+        //- bloc header
+            block header
+            include ../includes/hotellerie/_header
+        //- bloc formations
+            block formations
+            include ../includes/hotellerie/_formations
+        //- bloc partenaires Hôtellerie
+        block partenaires
+            include ../includes/_partenaires
+        //- bloc syrendre
+            block cTa
+            include ../includes/hotellerie/_cTa
+        //- bloc argumentaires formations
+            block arg
+            include ../includes/hotellerie/_arg
+        //- bloc footer
+        block footer
+            include ../includes/_footer 
