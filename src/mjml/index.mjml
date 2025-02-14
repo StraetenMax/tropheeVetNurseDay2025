@@ -37,12 +37,12 @@
   <mj-body background-color="#f0f7ee">
     <mj-section>
       <mj-column>
-        <mj-text align="center"><a style="color:#626262;font-size:10px;font-weight:500;line-height:12px" href="{{ mirror}}">Voir la version en ligne</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#626262;font-size:10px;font-weight:500;line-height:12px;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
+        <mj-text align="center"><a style="color:#595959;font-size:10px;font-weight:500;line-height:12px" href="{{ mirror}}">Voir la version en ligne</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#626262;font-size:10px;font-weight:500;line-height:12px;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bg+1" padding="0px">
+    <mj-section mj-class="bg+1" padding="0">
       <mj-column width="100%">
-        <mj-image padding="0" border="none" width="600px" src="https://i.ibb.co/Q3r8JDKs/Benoit-Samon-TVND-1.png" href="https://vimeo.com/1056301313" alt=""/>
+        <mj-image padding="0" border="none" width="600px" src="https://i.ibb.co/Q3r8JDKs/Benoit-Samon-TVND-1.png" href="https://vimeo.com/1056301313" alt="vidéo présentant le partenariat entre Supveto et les Trophées Vet Nurse Day 2025"/>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="10px 20px">
@@ -163,12 +163,12 @@
       <mj-column width="320px">
         <mj-image width="200px" padding="0" border="none" align="center" target="_blank" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg" href="https://ecosup-campus.com" alt="Logo Ecosup Campus"/>
         <mj-text padding-top="10px" padding-bottom="0" padding-left="0" padding-right="0" align="center" mj-class="cT+0 T-1">17 rue des Ursulines - 59200 <span style="text-transform:uppercase">Tourcoing</span></mj-text>
-        <mj-text padding="0" align="center" mj-class="cT+1 T-1"><a style="text-decoration:none;color:#626262;font-weight:700;color:#1a1a1a;" href="tel:0320700606">Tél 03.20.70.06.06</a>               </mj-text>
-        <mj-text padding="0" align="center" mj-class="cT+0 T-1"><a style="text-decoration:none;color:#626262;" href="mailto:contact@ecosup-campus.fr">contact@supveto.fr</a></mj-text>
-        <mj-text padding="0 0 25px 0" align="center" mj-class="cT+1 T-1"><a style="text-decoration:none;color:#626262;font-weight:700;color:#1a1a1a;" href="https://ecosup-campus.fr">www.supveto.com</a></mj-text>
-        <mj-text padding="0" align="center" mj-class="cT+0 T-2"><a style="color:#626262;font-size:10px;font-weight:500" href="{{ mirror}}">Voir la version en ligne</a>           </mj-text>
-        <mj-text padding="0" align="center" mj-class="cT+0 T-2">Pour être sûr(e) de recevoir nos communications, ajoutez <a style="text-decoration:none;color:#626262;" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a> dans votre carnet d'adresses.</mj-text>
-        <mj-text padding="0" align="center" mj-class="cT+0 T-2"><a style="color:#626262;font-size:10px;font-weight:500;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
+        <mj-text padding="0" align="center" mj-class="cT+1 T-1"><a style="text-decoration:none;color:#595959;font-weight:700;color:#0a4328;" href="tel:0320700606">Tél 03.20.70.06.06</a>               </mj-text>
+        <mj-text padding="0" align="center" mj-class="cT+0 T-1"><a style="text-decoration:none;color:#595959;" href="mailto:contact@ecosup-campus.fr">contact@supveto.fr</a></mj-text>
+        <mj-text padding="0 0 25px 0" align="center" mj-class="cT+1 T-1"><a style="text-decoration:none;color:#595959;font-weight:700;color:#0a4328;" href="https://ecosup-campus.fr">www.supveto.com</a></mj-text>
+        <mj-text padding="0" align="center" mj-class="cT+0 T-2"><a style="color:#595959;font-size:10px;font-weight:500" href="{{ mirror}}">Voir la version en ligne</a>           </mj-text>
+        <mj-text padding="0" align="center" mj-class="cT+0 T-2">Pour être sûr(e) de recevoir nos communications, ajoutez <a style="text-decoration:none;color:#595959;" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a> dans votre carnet d'adresses.</mj-text>
+        <mj-text padding="0" align="center" mj-class="cT+0 T-2"><a style="color:#595959;font-size:10px;font-weight:500;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
