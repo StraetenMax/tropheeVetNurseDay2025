@@ -42,7 +42,7 @@
     </mj-section>
     <mj-section mj-class="bg+1" padding="0">
       <mj-column width="100%">
-        <mj-image padding="0" border="none" width="600px" src="https://i.ibb.co/Q3r8JDKs/Benoit-Samon-TVND-1.png" href="https://vimeo.com/1056301313" alt="vidéo présentant le partenariat entre Supveto et les Trophées Vet Nurse Day 2025"/>
+        <mj-image padding="0" border="none" width="600px" src="https://i.ibb.co/Q3r8JDKs/Benoit-Samon-TVND-1.png" target="_blank" href="https://vimeo.com/1056301313" alt="vidéo présentant le partenariat entre Supveto et les Trophées Vet Nurse Day 2025"/>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="10px 20px">
@@ -51,7 +51,7 @@
         <mj-text mj-class="T400 cT+0">Nemo enim ipsam voluptatem quia voluptas. m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. aspernatur aut odit aut fugit, sed quia consequuntur magnis.</mj-text>
         <mj-text mj-class="T400 cT+0">Nemo enim ipsam voluptatem quia voluptas. m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. aspernatur aut odit aut fugit, sed quia consequuntur magnis.</mj-text>
         <mj-text mj-class="T400 cT+0">Nemo enim ipsam voluptatem quia voluptas. m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. aspernatur aut odit aut fugit, sed quia consequuntur magnis.</mj-text>
-        <mj-button align="left" mj-class="bg+11" font-size="16px" font-weight="700" line-height="20px" text-transform="uppercase" href="https://vimeo.com/1056301313">Voir la vidéo</mj-button>
+        <mj-button align="left" mj-class="bg+11" font-size="16px" font-weight="700" line-height="20px" text-transform="uppercase" target="_blank" href="https://vimeo.com/1056301313">Voir la vidéo</mj-button>
       </mj-column>
     </mj-section>
     <mj-section padding="0">
@@ -76,13 +76,13 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px">
       <mj-column width="40%" padding="10px">
-        <mj-image padding="0" border="none" width="300px" src="https://i.ibb.co/qLtJHMs4/cart-Supveto112024-1.png" href="https://supveto.com/les-ecoles/" alt="carte des 29 écoles Supveto du territoire"> </mj-image>
+        <mj-image padding="0" width="300px" target="_blank" src="https://i.ibb.co/qLtJHMs4/cart-Supveto112024-1.png" href="https://supveto.com/les-ecoles/" alt="carte des 29 écoles Supveto du territoire"> </mj-image>
       </mj-column>
       <mj-column width="60%" padding="10px">
         <mj-text padding="0px 0px 5px 0px" mj-class="T+2-300 cT+1">Quasi architecto beatae</mj-text>
         <mj-text padding="0" mj-class="T400 cT+0">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas. m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</mj-text>
         <mj-text padding-bottom="10px" padding-top="0" padding-left="0" padding-right="0" mj-class="T400 cT+0">Sit aspernatur aut odit aut fugit, sed quia consequuntur magni</mj-text>
-        <mj-button align="left" padding-left="0" mj-class="bg+11" font-size="16px" font-weight="700" line-height="20px" text-transform="uppercase" href="https://supveto.com/les-ecoles/">Nos écoles</mj-button>
+        <mj-button align="left" padding-left="0" mj-class="bg+11" font-size="16px" font-weight="700" line-height="20px" text-transform="uppercase" target="_blank" href="https://supveto.com/les-ecoles/">Nos écoles</mj-button>
       </mj-column>
     </mj-section>
     <mj-section padding="0">
@@ -161,13 +161,13 @@
     </mj-section>
     <mj-section background-color="#e0efdc" padding="20px 32px">
       <mj-column width="320px">
-        <mj-image width="200px" padding="0" border="none" align="center" target="_blank" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg" href="https://ecosup-campus.com" alt="Logo Ecosup Campus"/>
+        <mj-image width="200px" padding="0" align="center" target="_blank" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg" href="https://ecosup-campus.com" alt="Logo Ecosup Campus"/>
         <mj-text padding-top="10px" padding-bottom="0" padding-left="0" padding-right="0" align="center" mj-class="cT+0 T-1">17 rue des Ursulines - 59200 <span style="text-transform:uppercase">Tourcoing</span></mj-text>
         <mj-text padding="0" align="center" mj-class="cT+1 T-1"><a style="text-decoration:none;color:#595959;font-weight:700;color:#0a4328;" href="tel:0320700606">Tél 03.20.70.06.06</a>               </mj-text>
-        <mj-text padding="0" align="center" mj-class="cT+0 T-1"><a style="text-decoration:none;color:#595959;" href="mailto:contact@ecosup-campus.fr">contact@supveto.fr</a></mj-text>
-        <mj-text padding="0 0 25px 0" align="center" mj-class="cT+1 T-1"><a style="text-decoration:none;color:#595959;font-weight:700;color:#0a4328;" href="https://ecosup-campus.fr">www.supveto.com</a></mj-text>
+        <mj-text padding="0" align="center" mj-class="cT+0 T-1"><a style="text-decoration:none;color:#595959;" href="mailto:contact@supveto.com">contact@supveto.fr</a></mj-text>
+        <mj-text padding="0 0 25px 0" align="center" mj-class="cT+1 T-1"><a style="text-decoration:none;color:#595959;font-weight:700;color:#0a4328;" target="_blank" href="https://supveto.com">www.supveto.com</a></mj-text>
         <mj-text padding="0" align="center" mj-class="cT+0 T-2"><a style="color:#595959;font-size:10px;font-weight:500" href="{{ mirror}}">Voir la version en ligne</a>           </mj-text>
-        <mj-text padding="0" align="center" mj-class="cT+0 T-2">Pour être sûr(e) de recevoir nos communications, ajoutez <a style="text-decoration:none;color:#595959;" href="mailto:contact@ecosup-campus.fr">contact@ecosup-campus.fr</a> dans votre carnet d'adresses.</mj-text>
+        <mj-text padding="0" align="center" mj-class="cT+0 T-2">Pour être sûr(e) de recevoir nos communications, ajoutez <a style="text-decoration:none;color:#595959;" href="mailto:contact@supveto.com">contact@supveto.com</a> dans votre carnet d'adresses.</mj-text>
         <mj-text padding="0" align="center" mj-class="cT+0 T-2"><a style="color:#595959;font-size:10px;font-weight:500;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
       </mj-column>
     </mj-section>
