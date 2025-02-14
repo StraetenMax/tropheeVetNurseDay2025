@@ -13,7 +13,7 @@
     </mj-raw>
     <mj-attributes>
       <mj-all font-family="Open Sans, Arial, Helvetica,sans serif"/>
-      <mj-class name="T+3" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="36px" line-height="36px" font-weight="800"/>
+      <mj-class name="T+3" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="36px" line-height="36px" font-weight="500"/>
       <mj-class name="T+2-700" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="700"/>
       <mj-class name="T+2-300" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="300"/>
       <mj-class name="T700" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700"/>
@@ -21,7 +21,6 @@
       <mj-class name="T400" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="400"/>
       <mj-class name="T-1" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="13px" line-height="17px" font-weight="400"/>
       <mj-class name="T-2" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="10px" line-height="12px" font-weight="300"/>
-      <mj-class name="L" align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0"></mj-class>
       <mj-class name="cT+1" color="#0a4328"/>
       <mj-class name="cT+0" color="#595959"/>
       <mj-class name="c-0" color="#37A943"/>
@@ -161,8 +160,6 @@
     <mj-section background-color="#e0efdc" padding="20px 32px">
       <mj-column width="320px">
         <mj-image width="200px" padding="0" align="center" target="_blank" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg" href="https://ecosup-campus.com" alt="Logo Ecosup Campus"/>
-        <mj-text padding-top="10px" padding-bottom="0" padding-left="0" padding-right="0" align="center" mj-class="cT+0 T-1">17 rue des Ursulines - 59200 <span style="text-transform:uppercase">Tourcoing</span></mj-text>
-        <mj-text padding="0" align="center" mj-class="cT+1 T-1"><a style="text-decoration:none;color:#595959;font-weight:700;color:#0a4328;" href="tel:0320700606">Tél 03.20.70.06.06</a>               </mj-text>
         <mj-text padding="0" align="center" mj-class="cT+0 T-1"><a style="text-decoration:none;color:#595959;" href="mailto:contact@supveto.com">contact@supveto.fr</a></mj-text>
         <mj-text padding="0 0 25px 0" align="center" mj-class="cT+1 T-1"><a style="text-decoration:none;color:#595959;font-weight:700;color:#0a4328;" target="_blank" href="https://supveto.com">www.supveto.com</a></mj-text>
         <mj-text padding="0" align="center" mj-class="cT+0 T-2"><a style="color:#595959;font-size:10px;font-weight:500" href="{{ mirror}}">Voir la version en ligne</a>           </mj-text>
