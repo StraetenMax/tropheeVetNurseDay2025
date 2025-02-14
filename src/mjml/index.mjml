@@ -15,7 +15,7 @@
       <mj-all font-family="Open Sans, Arial, Helvetica,sans serif"/>
       <mj-class name="T+3" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="36px" line-height="36px" font-weight="500"/>
       <mj-class name="T+2-700" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="700"/>
-      <mj-class name="T+2-300" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="300"/>
+      <mj-class name="T+2-300" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="28px" line-height="32px" letter-spacing="-1px" font-weight="300"/>
       <mj-class name="T700" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700"/>
       <mj-class name="T500" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="500"/>
       <mj-class name="T400" font-family="Open Sans, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="400"/>
@@ -33,7 +33,7 @@
     <mj-breakpoint width="480px"></mj-breakpoint>
   </mj-head>
   <mj-body background-color="#f0f7ee">
-    <mj-section>
+    <mj-section padding="10px">
       <mj-column>
         <mj-text align="center"><a style="color:#595959;font-size:10px;font-weight:500;line-height:12px" href="{{ mirror}}">Voir la version en ligne</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a style="color:#626262;font-size:10px;font-weight:500;line-height:12px;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
       </mj-column>
@@ -45,11 +45,13 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="10px 20px">
       <mj-column>
-        <mj-text mj-class="T+3 cT+1">Dicta sunt explicabo.</mj-text>
-        <mj-text mj-class="T400 cT+0">Nemo enim ipsam voluptatem quia voluptas. m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. aspernatur aut odit aut fugit, sed quia consequuntur magnis.</mj-text>
-        <mj-text mj-class="T400 cT+0">Nemo enim ipsam voluptatem quia voluptas. m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. aspernatur aut odit aut fugit, sed quia consequuntur magnis.</mj-text>
-        <mj-text mj-class="T400 cT+0">Nemo enim ipsam voluptatem quia voluptas. m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. aspernatur aut odit aut fugit, sed quia consequuntur magnis.</mj-text>
+        <mj-text mj-class="T+3 cT+1">Supveto : Votre partenaire pour la formation des ASV</mj-text>
+        <mj-text mj-class="T400 cT+0"><span style="font-weight:700;color:#0a4328;">Supveto</span> est un réseau d'écoles présentes dans toute la France, avec <span style="font-weight:700;color:#0a4328">29 établissements dédiés à la formation des Auxiliaires de Service Vétérinaire</span> (ASV). </mj-text>
+        <mj-text mj-class="T400 cT+0"><span style="font-weight:700;color:#0a4328">Notre engagement :</span> offrir une formation de qualité qui allie théorie et pratique, en mettant l'accent sur l'expérience sur le terrain et grâce à l'intervention de professionnels tels que des ASV et des vétérinaires. </mj-text>
+        <mj-text mj-class="T400 cT+0"> <span style="font-weight:700;color:#0a4328">Nous formons des ASV compétents</span>, capables d'intervenir de manière efficace et autonome dans les cliniques vétérinaires. En tant que fervents défenseurs du rôle essentiel des ASV, nous avons décidé de <span style="font-weight:700;color:#0a4328">nous associer à Dr Patounes</span> pour  <span style="font-weight:700;color:#0a4328">soutenir le Trophée Vet Nurse Day</span>.</mj-text>
+        <mj-text mj-class="T400 cT+0"><span style="font-weight:700;color:#0a4328">Ce partenariat</span>, fondé sur des valeurs partagées, est une occasion de valoriser le travail des ASV et de montrer tout ce qu'ils apportent au quotidien. Découvrez notre engagement à travers cette vidéo.</mj-text>
         <mj-button align="left" mj-class="bg+11" font-size="16px" font-weight="700" line-height="20px" text-transform="uppercase" target="_blank" href="https://vimeo.com/1056301313">Voir la vidéo</mj-button>
+        <mj-spacer height="30px"></mj-spacer>
       </mj-column>
     </mj-section>
     <mj-section padding="0">
@@ -84,6 +86,7 @@
         <mj-text padding="5px 0" mj-class="T400 cT+0">Vous avez la possibilité de consulter notre carte interactive et de découvrir l'école qui vous correspond le mieux. Il vous suffit de cliquer sur l'école de votre choix pour poser votre candidature. </mj-text>
         <mj-text padding-bottom="10px" padding-top="5px" padding-left="0" padding-right="0" mj-class="T700 cT+1">N'attendez plus pour rejoindre un réseau d'écoles à la pointe de la formation ASV !</mj-text>
         <mj-button align="left" padding-left="0" mj-class="bg+11" font-size="16px" font-weight="700" line-height="20px" text-transform="uppercase" target="_blank" href="https://supveto.com/les-ecoles/">Découvrir nos écoles</mj-button>
+        <mj-spacer height="20px"></mj-spacer>
       </mj-column>
     </mj-section>
     <mj-section padding="0">
@@ -135,7 +138,7 @@
           <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/s2pZHFf/logo-Supveto09.jpg" alt="logo AniCura"/>
         </mj-column>
         <mj-column width="33.333333%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/Rp1BD8Yh/LogoVet.png" alt="logo de la clinique vétérinaire Vet+"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/B5FKKSzP/LogoVet.png" alt="logo de la clinique vétérinaire Vet+"/>
         </mj-column>
         <mj-column width="33.333333%" padding="4px">
           <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/yBfDsZbJ/Logo-IVC-Evidensia.png" alt="logo IVC Evidensia"/>
@@ -160,11 +163,10 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="#e0efdc" padding="20px 32px">
+    <mj-section background-color="#e0efdc" padding="30px 32px">
       <mj-column width="320px">
         <mj-image width="200px" padding="0" align="center" target="_blank" src="https://i.ibb.co/Jsh5VZ7/let-Emailling-08.jpg" href="https://ecosup-campus.com" alt="Logo Ecosup Campus"/>
-        <mj-text padding-top="10px" padding-bottom="0" padding-left="0" padding-right="0" align="center" mj-class="cT+0 T-1"><a style="text-decoration:none;color:#595959;" href="mailto:contact@supveto.com">contact@supveto.fr</a></mj-text>
-        <mj-text padding="0 0 25px 0" align="center" mj-class="cT+1 T-1"><a style="text-decoration:none;color:#595959;font-weight:700;color:#0a4328;" target="_blank" href="https://supveto.com">www.supveto.com</a></mj-text>
+        <mj-text padding="15px 0 45px 0" align="center" mj-class="cT+2 T+2-700"><a style="text-decoration:none;color:#595959;font-weight:700;color:#0a4328;" target="_blank" href="https://supveto.com">www.supveto.com</a></mj-text>
         <mj-text padding="0" align="center" mj-class="cT+0 T-2"><a style="color:#595959;font-size:10px;font-weight:500" href="{{ mirror}}">Voir la version en ligne</a>           </mj-text>
         <mj-text padding="0" align="center" mj-class="cT+0 T-2">Pour être sûr(e) de recevoir nos communications, ajoutez <a style="text-decoration:none;color:#595959;" href="mailto:contact@supveto.com">contact@supveto.com</a> dans votre carnet d'adresses.</mj-text>
         <mj-text padding="0" align="center" mj-class="cT+0 T-2"><a style="color:#595959;font-size:10px;font-weight:500;" href="{{ unsubscribe }}">Se désinscrire de la liste de diffusion</a></mj-text>
