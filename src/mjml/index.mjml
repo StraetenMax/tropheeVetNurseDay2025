@@ -23,8 +23,8 @@
       <mj-class name="T-1" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="13px" line-height="17px" font-weight="400"/>
       <mj-class name="T-2" font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size="10px" line-height="12px" font-weight="300"/>
       <mj-class name="L" align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0"></mj-class>
-      <mj-class name="cT+1" color="#1a1a1a"/>
-      <mj-class name="cT+0" color="#4d4d4d"/>
+      <mj-class name="cT+1" color="#0a4328"/>
+      <mj-class name="cT+0" color="#595959"/>
       <mj-class name="c-0" color="#37A943"/>
       <mj-class name="bg-0" background-color="#37A943"/>
       <mj-class name="c+11" color="#EA831E"/>
@@ -42,36 +42,52 @@
     </mj-section>
     <mj-section mj-class="bg+1" padding="0px">
       <mj-column width="100%">
-        <mj-image padding="0" border="none" width="600px" src="https://i.ibb.co/sJ2pB04Y/Sup-Veto-Grand-Partenaire-Benoit2025-1.png" alt=""/>
+        <mj-image padding="0" border="none" width="600px" src="https://i.ibb.co/Q3r8JDKs/Benoit-Samon-TVND-1.png" href="https://vimeo.com/1056301313" alt=""/>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="10px 20px">
       <mj-column>
-        <mj-text mj-class="T+3 c-0">Dicta sunt explicabo.</mj-text>
+        <mj-text mj-class="T+3 cT+1">Dicta sunt explicabo.</mj-text>
         <mj-text mj-class="T400 cT+0">Nemo enim ipsam voluptatem quia voluptas. m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. aspernatur aut odit aut fugit, sed quia consequuntur magnis.</mj-text>
         <mj-text mj-class="T400 cT+0">Nemo enim ipsam voluptatem quia voluptas. m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. aspernatur aut odit aut fugit, sed quia consequuntur magnis.</mj-text>
         <mj-text mj-class="T400 cT+0">Nemo enim ipsam voluptatem quia voluptas. m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. aspernatur aut odit aut fugit, sed quia consequuntur magnis.</mj-text>
+        <mj-button align="left" mj-class="bg+11" font-size="16px" font-weight="700" line-height="20px" text-transform="uppercase" href="https://vimeo.com/1056301313">Voir la vidéo</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px"></mj-spacer>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px">
       <mj-column width="40%" padding-left="10px" padding-right="10px">
-        <mj-image padding="0" border="0" src="https://i.ibb.co/qLtJHMs4/cart-Supveto112024-1.png" href="" alt="carte des 29 écoles Supveto du territoire"> </mj-image>
+        <mj-image padding="0" border="0" width="300px" src="https://i.ibb.co/VYq28039/logo-Trophees-1.png" alt="logo du trophées Vet Nurse Day"> </mj-image>
       </mj-column>
       <mj-column width="60%" padding-left="10px" padding-right="10px">
-        <mj-text padding="0" mj-class="T+2-700 c+1">Quasi architecto beatae</mj-text>
+        <mj-text padding="3px 0" mj-class="T+2-300 cT+1">Quasi architecto beatae</mj-text>
         <mj-text padding="0" mj-class="T400 cT+0">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas. m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</mj-text>
         <mj-text padding="0" mj-class="T400 cT+0">Sit aspernatur aut odit aut fugit, sed quia consequuntur magnis.</mj-text>
       </mj-column>
     </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px"></mj-spacer>
+      </mj-column>
+    </mj-section>
     <mj-section background-color="#ffffff" padding="20px">
       <mj-column width="40%" padding="10px">
-        <mj-image padding="0" border="0" src="https://i.ibb.co/qLtJHMs4/cart-Supveto112024-1.png" href="" alt="carte des 29 écoles Supveto du territoire"> </mj-image>
+        <mj-image padding="0" border="none" width="300px" src="https://i.ibb.co/qLtJHMs4/cart-Supveto112024-1.png" href="https://supveto.com/les-ecoles/" alt="carte des 29 écoles Supveto du territoire"> </mj-image>
       </mj-column>
       <mj-column width="60%" padding="10px">
-        <mj-text padding="0" mj-class="T+2-700 c+1">Quasi architecto beatae</mj-text>
+        <mj-text padding="0px 0px 5px 0px" mj-class="T+2-300 cT+1">Quasi architecto beatae</mj-text>
         <mj-text padding="0" mj-class="T400 cT+0">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas. m quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</mj-text>
-        <mj-text padding="0" mj-class="T400 cT+0">Sit aspernatur aut odit aut fugit, sed quia consequuntur magni</mj-text>
-        <mj-button align="left" mj-class="bg+11">Nos écoles</mj-button>
+        <mj-text padding-bottom="10px" padding-top="0" padding-left="0" padding-right="0" mj-class="T400 cT+0">Sit aspernatur aut odit aut fugit, sed quia consequuntur magni</mj-text>
+        <mj-button align="left" padding-left="0" mj-class="bg+11" font-size="16px" font-weight="700" line-height="20px" text-transform="uppercase" href="https://supveto.com/les-ecoles/">Nos écoles</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px"></mj-spacer>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px">
@@ -81,63 +97,51 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="0px 60px 40px 60px"> 
       <mj-group width="50%">
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/vz8Rrt2/LogoA12.jpg" alt="logo Fait Maison"/>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/QFWSt0w/logo-Supveto01.jpg" alt="logo Hôpital vétérinaire des Laurentides"/>
         </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/z5ZgwTw/LogoA11.jpg" alt="logo de l'Hôtel l'Ermitage Gantois"/>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/bgqVSsD/logo-Supveto02.jpg" alt="logo Lux-Vet clinique vétérinaire"/>
         </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/L85ZfG1/LogoA10.jpg" alt="logo de la chaîne d'Hôtels Best Western"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/n6nKRBn/LogoA9.jpg" alt="logo Small Luxury Hotels"/>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/NLgM4B7/logo-Supveto04.jpg" alt="logo du centre hôpitalier Vétérinaire Pommery"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/VHwDR7d/LogoA13.jpg" alt="logo de la chaîne de restauration les 3 Brasseurs"/>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PwXYWZC/logo-Supveto05.jpg" alt="logo de la Clinique vétérinaire de Linselles"/>
         </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/pRydwkm/LogoA1.jpg" alt="logo du groupe Accord"/>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/Kz5BW3zv/Logo-Doc-Nac.png" alt="logo DocNac"/>
         </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/8z2m91y/LogoA2.jpg" alt="logo du groupe Global Hôtel Alliance"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/gw0vV3g/LogoA3.jpg" alt="logo l'hôtel l'Arbre voyageur"/>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/wr67xqYs/Logo-Sevetys.png" alt="logo Sevetys Vétérinaires partenaires"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/QXFVhNW/LogoA4.jpg" alt="logo de l'hôtel Carlton de Lille"/>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/jrZ9y7j/logo-Supveto06.jpg" alt="logo de la LPA"/>
         </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/zr8TQyS/LogoA5.jpg" alt="logo de l'Hôtel Lille Europe HLE"/>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/mFnZNt1/logo-Supveto07.jpg" alt="logo clinique vétérinaire"/>
         </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/DKZDvtz/LogoA6.jpg" alt="logo de l'Hôtel Restaurant du Couvent des Minimes"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/VYL89kZ/LogoA7.jpg" alt="logo de la Sodexo"/>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/r6kmn81/logo-Supveto08.jpg" alt="logo de Biotopia"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/ZXr5mLx/LogoA8.jpg" alt="logo du Najeti - Hôtel Lille Nord"/>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/s2pZHFf/logo-Supveto09.jpg" alt="logo AniCura"/>
         </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/qNZP5dP/LogoA14.jpg" alt="logo Hôtel Moustache"/>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/Rp1BD8Yh/LogoVet.png" alt="logo de la clinique vétérinaire Vet+"/>
         </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PGss0H7/Hotellerie21.jpg" alt="logo du restaurant le Septentrion"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/JrbkKBG/Hotellerie20.jpg" alt="logo de l'Hôtel Le Bristol"/>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/yBfDsZbJ/Logo-IVC-Evidensia.png" alt="logo IVC Evidensia"/>
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="#98c98b" padding="20px">
+    <mj-section background-color="#98c98b" padding="5px 20px">
       <mj-group width="50%">
         <mj-column vertical-align="middle" width="50%" padding="10px">
           <mj-image padding="0" border="none" width="150px" src="https://i.ibb.co/PGZ73rSW/Logo-Alcyon.png" alt="logo Alcyon"/>

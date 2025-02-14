@@ -23,8 +23,8 @@ mjml
             mj-class(name='T-2' font-family="Roboto, Arial, Helvetica, sans-serif" font-style="normal" font-size='10px' line-height='12px' font-weight="300")/
             mj-class(name='L' align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0")
             //- Black colors text
-            mj-class(name="cT+1" color="#1a1a1a")/
-            mj-class(name="cT+0" color="#4d4d4d")/
+            mj-class(name="cT+1" color="#0a4328")/
+            mj-class(name="cT+0" color="#595959")/
             //- Colors
             mj-class(name="c-0" color="#37A943")/
             mj-class(name="bg-0" background-color="#37A943")/
@@ -40,13 +40,22 @@ mjml
         //- bloc header
         block header
             include ../includes/_header
+            mj-section(padding="0")
+                mj-column
+                    mj-spacer(height="20px")
         //- bloc trophees
         block trophees
             include ../includes/_trophees
+            mj-section(padding="0")
+                mj-column
+                    mj-spacer(height="20px")
         //- bloc ecoles
         block ecole
             include ../includes/_ecole
-        //- bloc partenaires Hôtellerie
+            mj-section(padding="0")
+                mj-column
+                    mj-spacer(height="20px")
+        //- bloc partenaires Vétérinaire
         block partenaires
             include ../includes/_partenaires
         //- bloc partenaires supveto
