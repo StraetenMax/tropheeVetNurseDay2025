@@ -76,19 +76,28 @@
         <mj-spacer height="20px"></mj-spacer>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="20px">
-      <mj-column width="40%" padding="10px">
-        <mj-image padding="0" width="300px" target="_blank" src="https://i.ibb.co/qLtJHMs4/cart-Supveto112024-1.png" href="https://supveto.com/les-ecoles/" alt="carte des 29 écoles Supveto du territoire"> </mj-image>
-      </mj-column>
-      <mj-column width="60%" padding="10px">
-        <mj-text padding="5px 0" mj-class="T+2-300 cT+1">Rejoignez Supveto et devenez ASV</mj-text>
-        <mj-text padding="5px 0" mj-class="T400 cT+0">Les <span style="font-weight:700;color:#0a4328">inscriptions</span> pour la <span style="font-weight:700;color:#0a4328">rentrée de septembre 2025</span> sont <span style="font-weight:700;color:#0a4328">ouvertes</span> dans toutes nos écoles Supveto à travers la France. </mj-text>
-        <mj-text padding="5px 0" mj-class="T400 cT+0">Vous avez la possibilité de consulter notre carte interactive et de découvrir l'école qui vous correspond le mieux. Il vous suffit de cliquer sur l'école de votre choix pour poser votre candidature. </mj-text>
-        <mj-text padding-bottom="10px" padding-top="5px" padding-left="0" padding-right="0" mj-class="T700 cT+1">N'attendez plus pour rejoindre un réseau d'écoles à la pointe de la formation ASV !</mj-text>
-        <mj-button align="left" padding-left="0" mj-class="bg+11" font-size="16px" font-weight="700" line-height="20px" text-transform="uppercase" target="_blank" href="https://supveto.com/les-ecoles/">Découvrir nos écoles</mj-button>
-        <mj-spacer height="20px"></mj-spacer>
-      </mj-column>
-    </mj-section>
+    <mj-wrapper background-color="#ffffff" padding="20px">
+      <mj-section padding="0">
+        <mj-column width="40%">
+          <mj-text padding="0">&nbsp;</mj-text>
+        </mj-column>
+        <mj-column width="60%" padding="0 10px">
+          <mj-text padding="0" mj-class="T+2-300 cT+1">Rejoignez Supveto et devenez ASV</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column width="40%" padding="0 10px">
+          <mj-image padding="0" width="300px" target="_blank" src="https://i.ibb.co/qLtJHMs4/cart-Supveto112024-1.png" href="https://supveto.com/les-ecoles/" alt="carte des 29 écoles Supveto du territoire"> </mj-image>
+        </mj-column>
+        <mj-column width="60%" padding="0 10px">
+          <mj-text padding="5px 0" mj-class="T400 cT+0">Les <span style="font-weight:700;color:#0a4328">inscriptions</span> pour la <span style="font-weight:700;color:#0a4328">rentrée de septembre 2025</span> sont <span style="font-weight:700;color:#0a4328">ouvertes</span> dans toutes nos écoles Supveto à travers la France. </mj-text>
+          <mj-text padding="5px 0" mj-class="T400 cT+0">Vous avez la possibilité de consulter notre carte interactive et de découvrir l'école qui vous correspond le mieux. Il vous suffit de cliquer sur l'école de votre choix pour poser votre candidature. </mj-text>
+          <mj-text padding-bottom="10px" padding-top="5px" padding-left="0" padding-right="0" mj-class="T700 cT+1">N'attendez plus pour rejoindre un réseau d'écoles à la pointe de la formation ASV !</mj-text>
+          <mj-button align="left" padding-left="0" mj-class="bg+11" font-size="16px" font-weight="700" line-height="20px" text-transform="uppercase" target="_blank" href="https://supveto.com/les-ecoles/">Découvrir nos écoles</mj-button>
+          <mj-spacer height="20px"></mj-spacer>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
     <mj-section padding="0">
       <mj-column>
         <mj-spacer height="20px"></mj-spacer>
