@@ -40,7 +40,7 @@
     </mj-section>
     <mj-section mj-class="bg+1" padding="0">
       <mj-column width="100%">
-        <mj-image padding="0" width="600px" src="https://i.ibb.co/Q3r8JDKs/Benoit-Samon-TVND-1.png" target="_blank" href="https://vimeo.com/1056301313" alt="vidéo présentant le partenariat entre Supveto et les Trophées Vet Nurse Day 2025"/>
+        <mj-image padding="0" width="600px" src="./images/video.png" target="_blank" href="https://vimeo.com/1056301313" alt="vidéo présentant le partenariat entre Supveto et les Trophées Vet Nurse Day 2025"/>
       </mj-column>
     </mj-section>
     <mj-wrapper background-color="#ffffff" padding="10px 30px">
@@ -53,7 +53,7 @@
       </mj-section>
       <mj-section padding="0">
         <mj-column width="40%" padding="10px">
-          <mj-image padding="0" width="480px" src="https://i.ibb.co/v4HsJ3Cz/Troph-VND2025.png" alt="affiche de l'opération Trophées Vet Nurse Day 2025"/>
+          <mj-image padding="0" width="480px" src="./images/TVND2025.png" alt="affiche de l'opération Trophées Vet Nurse Day 2025"/>
         </mj-column>
         <mj-column width="60%" padding="0 10px">
           <mj-text padding="5px 0" mj-class="T400 cT+0"> <span style="font-weight:700;color:#0a4328">Nous formons des ASV compétents</span>, capables d'intervenir de manière efficace et autonome dans les cliniques vétérinaires. En tant que fervents défenseurs du rôle essentiel des ASV, nous avons décidé de <span style="font-weight:700;color:#0a4328">nous associer à Dr Patounes</span> pour  <span style="font-weight:700;color:#0a4328">soutenir le Trophée Vet Nurse Day</span>.</mj-text>
@@ -79,7 +79,7 @@
       </mj-section>
       <mj-section padding="0">
         <mj-column width="40%" padding="0 10px">
-          <mj-image padding="0" width="300px" src="https://i.ibb.co/VYq28039/logo-Trophees-1.png" alt="logo du trophées Vet Nurse Day"> </mj-image>
+          <mj-image padding="0" width="300px" src="./images/trophees.png" alt="logo du trophées Vet Nurse Day"> </mj-image>
         </mj-column>
         <mj-column width="60%" padding="0 10px">
           <mj-text padding="5px 0" mj-class="T400 cT+0">Le <span style="color:#0a4328;font-weight:700;">Trophée Vet Nurse Day</span> est un concours unique, permettant aux ASV de présenter des projets et des idées innovantes au sein de leurs cliniques.</mj-text>
@@ -105,7 +105,7 @@
       </mj-section>
       <mj-section padding="0">
         <mj-column width="40%" padding="0 10px">
-          <mj-image padding="0" width="300px" target="_blank" src="https://i.ibb.co/qLtJHMs4/cart-Supveto112024-1.png" href="https://supveto.com/les-ecoles/" alt="carte des 29 écoles Supveto du territoire"> </mj-image>
+          <mj-image padding="0" width="300px" target="_blank" src="./images/carte.png" href="https://supveto.com/les-ecoles/" alt="carte des 29 écoles Supveto du territoire"> </mj-image>
         </mj-column>
         <mj-column width="60%" padding="0 10px">
           <mj-text padding="5px 0" mj-class="T400 cT+0">Les <span style="font-weight:700;color:#0a4328">inscriptions</span> pour la <span style="font-weight:700;color:#0a4328">rentrée de septembre 2025</span> sont <span style="font-weight:700;color:#0a4328">ouvertes</span> dans toutes nos écoles Supveto à travers la France. </mj-text>
@@ -129,64 +129,64 @@
     <mj-section background-color="#ffffff" padding="0px 60px 40px 60px"> 
       <mj-group width="50%">
         <mj-column width="33.333333%" padding="4px">
-          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/QFWSt0w/logo-Supveto01.jpg" alt="logo Hôpital vétérinaire des Laurentides"/>
+          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="./images/supveto01.jpg" alt="logo Hôpital vétérinaire des Laurentides"/>
         </mj-column>
         <mj-column width="33.333333%" padding="4px">
-          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/bgqVSsD/logo-Supveto02.jpg" alt="logo Lux-Vet clinique vétérinaire"/>
+          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="./images/supveto02.jpg" alt="logo Lux-Vet clinique vétérinaire"/>
         </mj-column>
         <mj-column width="33.333333%" padding="4px">
-          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/NLgM4B7/logo-Supveto04.jpg" alt="logo du centre hôpitalier Vétérinaire Pommery"/>
-        </mj-column>
-      </mj-group>
-      <mj-group width="50%">
-        <mj-column width="33.333333%" padding="4px">
-          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PwXYWZC/logo-Supveto05.jpg" alt="logo de la Clinique vétérinaire de Linselles"/>
-        </mj-column>
-        <mj-column width="33.333333%" padding="4px">
-          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/Kz5BW3zv/Logo-Doc-Nac.png" alt="logo DocNac"/>
-        </mj-column>
-        <mj-column width="33.333333%" padding="4px">
-          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/wr67xqYs/Logo-Sevetys.png" alt="logo Sevetys Vétérinaires partenaires"/>
+          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="./images/supveto04.jpg" alt="logo du centre hôpitalier Vétérinaire Pommery"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
         <mj-column width="33.333333%" padding="4px">
-          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/jrZ9y7j/logo-Supveto06.jpg" alt="logo de la LPA"/>
+          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="./images/supveto05.jpg" alt="logo de la Clinique vétérinaire de Linselles"/>
         </mj-column>
         <mj-column width="33.333333%" padding="4px">
-          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/mFnZNt1/logo-Supveto07.jpg" alt="logo clinique vétérinaire"/>
+          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="./images/docnac.png" alt="logo DocNac"/>
         </mj-column>
         <mj-column width="33.333333%" padding="4px">
-          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/r6kmn81/logo-Supveto08.jpg" alt="logo de Biotopia"/>
+          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="./images/sevetys.png" alt="logo Sevetys Vétérinaires partenaires"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
         <mj-column width="33.333333%" padding="4px">
-          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/s2pZHFf/logo-Supveto09.jpg" alt="logo AniCura"/>
+          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="./images/supveto06.jpg" alt="logo de la LPA"/>
         </mj-column>
         <mj-column width="33.333333%" padding="4px">
-          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/B5FKKSzP/LogoVet.png" alt="logo de la clinique vétérinaire Vet+"/>
+          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="./images/supveto07.jpg" alt="logo clinique vétérinaire"/>
         </mj-column>
         <mj-column width="33.333333%" padding="4px">
-          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/yBfDsZbJ/Logo-IVC-Evidensia.png" alt="logo IVC Evidensia"/>
+          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="./images/supveto08.jpg" alt="logo de Biotopia"/>
+        </mj-column>
+      </mj-group>
+      <mj-group width="50%">
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="./images/supveto09.jpg" alt="logo AniCura"/>
+        </mj-column>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="./images/vetplus.png" alt="logo de la clinique vétérinaire Vet+"/>
+        </mj-column>
+        <mj-column width="33.333333%" padding="4px">
+          <mj-image padding="0" fluid-on-mobile="true" width="150px" src="./images/evidensia.png" alt="logo IVC Evidensia"/>
         </mj-column>
       </mj-group>
     </mj-section>
     <mj-section background-color="#98c98b" padding="5px 20px">
       <mj-group width="50%">
         <mj-column vertical-align="middle" width="50%" padding="10px">
-          <mj-image padding="0" width="150px" src="https://i.ibb.co/PGZ73rSW/Logo-Alcyon.png" alt="logo Alcyon"/>
+          <mj-image padding="0" width="150px" src="./images/alcyon.png" alt="logo Alcyon"/>
         </mj-column>
         <mj-column vertical-align="middle" width="50%" padding="10px">
-          <mj-image padding="0" width="150px" src="https://i.ibb.co/5Xv1sxGk/Logo-Axiance-1.png" alt="logo Axiance"/>
+          <mj-image padding="0" width="150px" src="./images/axiance.png" alt="logo Axiance"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
         <mj-column vertical-align="middle" width="50%" padding="10px">
-          <mj-image padding="0" width="150px" src="https://i.ibb.co/67QmDC6r/Logo-Esthima.png" alt="logo Esthima"/>
+          <mj-image padding="0" width="150px" src="./images/esthima.png" alt="logo Esthima"/>
         </mj-column>
         <mj-column vertical-align="middle" width="50%" padding="10px">
-          <mj-image padding="0" width="150px" src="https://i.ibb.co/BH5ZfT6r/Logo-Hills-pet-food.png" alt="logo Hills pet food"/>
+          <mj-image padding="0" width="150px" src="./images/hills.png" alt="logo Hills pet food"/>
         </mj-column>
       </mj-group>
     </mj-section>

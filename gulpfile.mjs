@@ -5,14 +5,10 @@ import mjml from 'mjml';
 import { minify as htmlmin } from 'html-minifier-terser';
 import rename from 'gulp-rename';
 import clean from 'gulp-clean';
+import { deleteAsync } from 'del';
 import through2 from 'through2';
 //-import htmlhint from 'gulp-htmlhint';
 import { load } from 'cheerio';
-import filesize from 'gulp-filesize';
-import imagemin from 'gulp-imagemin';
-import gifsicle from 'imagemin-gifsicle';
-import mozjpeg from 'imagemin-mozjpeg';
-import optipng from 'imagemin-optipng';
 import liveServer from 'live-server';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
@@ -79,7 +75,7 @@ const serve = (done) => {
 };
 
 // Compression des images
-const compressImg = () => {
+/*const compressImg = () => {
     return gulp.src('./src/images/*.{png,jpg,gif}')
         .pipe(filesize({ title: 'Taille des images avant compression' }))
         .pipe(imagemin([
@@ -89,12 +85,36 @@ const compressImg = () => {
         ]))
         .pipe(filesize({ title: 'Taille des images après compression' }))
         .pipe(gulp.dest('./dist/images'));
-};
+};*/
 
 // Nettoyage
+/* -const cleanDist = () => {
+//    return gulp.src('./dist', { allowEmpty: true, read: false })
+//        .pipe(clean());
+//};*/
+
+// Nettoyage des fichiers uniquement (pas les dossiers)
+/* const cleanDist = () => {
+    return gulp.src('./dist/*', { 
+        allowEmpty: true, 
+        read: false,
+        dot: true,
+        nodir: true // Exclure les répertoires
+    })
+    .pipe(clean());
+}; */
+
+/*const cleanDist = () => {
+    return gulp.src(['./dist/*', '!./dist/images'], { 
+        allowEmpty: true, 
+        read: false
+    })
+    .pipe(clean());
+}; */
+
 const cleanDist = () => {
-    return gulp.src('./dist', { allowEmpty: true, read: false })
-        .pipe(clean());
+    // Utilise deleteAsync au lieu de del
+    return deleteAsync(['./dist/*', '!./dist/images']);
 };
 
 // Pug vers Mjml
@@ -237,14 +257,12 @@ const verification = () => {
 // Watch ------------------------------------------------------------------------------------------------------------------------------
 const watch = () => {
     gulp.watch('./src/**/*.pug', gulp.series(pugToMjml, mjmlToHtml, minifyHtml, verification,));
-    gulp.watch('./src/images/**/*', gulp.series(compressImg));
 };
 
 // Tâche par défaut---------------------------------------------------------------------------------------------------------------------
 const defaultTask = gulp.series(
     cleanDist,
     ensureDistDirectory, // Ajoutez cette tâche ici
-    gulp.parallel(compressImg),
     pugToMjml,
     mjmlToHtml, // Appeler mjmlToHtml comme une fonction asynchrone
     (done) => {
@@ -255,4 +273,4 @@ const defaultTask = gulp.series(
 );
 
 // Export des tâches
-export { serve, verification, compressImg, cleanDist, pugToMjml, mjmlToHtml, minifyHtml, watch, defaultTask as default };
+export { serve, verification, cleanDist, pugToMjml, mjmlToHtml, minifyHtml, watch, defaultTask as default };
