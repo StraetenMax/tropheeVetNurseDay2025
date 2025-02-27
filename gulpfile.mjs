@@ -4,17 +4,13 @@ import JSON5 from 'json5';
 import mjml from 'mjml';
 import { minify as htmlmin } from 'html-minifier-terser';
 import rename from 'gulp-rename';
-import clean from 'gulp-clean';
 import { deleteAsync } from 'del';
 import through2 from 'through2';
-//-import htmlhint from 'gulp-htmlhint';
 import { load } from 'cheerio';
 import liveServer from 'live-server';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { promises as fs } from 'fs'; // Ajouté pour lire le fichier JSON
-//import loadConfigs from './path-to-your-config-loader.mjs'; // Assurez-vous que ce chemin est correct
-//-import { mkdir } from 'fs/promises'; // Pour créer des répertoires
 
 // Définit --dirname
 const __filename = fileURLToPath(import.meta.url);
@@ -73,44 +69,6 @@ const serve = (done) => {
     }
     done();
 };
-
-// Compression des images
-/*const compressImg = () => {
-    return gulp.src('./src/images/*.{png,jpg,gif}')
-        .pipe(filesize({ title: 'Taille des images avant compression' }))
-        .pipe(imagemin([
-            gifsicle({ interlaced: true, optimizationLevel: 3 }),
-            mozjpeg({ quality: 75, progressive: true }),
-            optipng({ optimizationLevel: 5 }),
-        ]))
-        .pipe(filesize({ title: 'Taille des images après compression' }))
-        .pipe(gulp.dest('./dist/images'));
-};*/
-
-// Nettoyage
-/* -const cleanDist = () => {
-//    return gulp.src('./dist', { allowEmpty: true, read: false })
-//        .pipe(clean());
-//};*/
-
-// Nettoyage des fichiers uniquement (pas les dossiers)
-/* const cleanDist = () => {
-    return gulp.src('./dist/*', { 
-        allowEmpty: true, 
-        read: false,
-        dot: true,
-        nodir: true // Exclure les répertoires
-    })
-    .pipe(clean());
-}; */
-
-/*const cleanDist = () => {
-    return gulp.src(['./dist/*', '!./dist/images'], { 
-        allowEmpty: true, 
-        read: false
-    })
-    .pipe(clean());
-}; */
 
 const cleanDist = () => {
     // Utilise deleteAsync au lieu de del
