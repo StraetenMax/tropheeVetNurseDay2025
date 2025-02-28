@@ -7,11 +7,6 @@ import rename from 'gulp-rename';
 import { deleteAsync } from 'del';
 import through2 from 'through2';
 import { load } from 'cheerio';
-//import filesize from 'gulp-filesize';
-//import imagemin from 'gulp-imagemin';
-//import gifsicle from 'imagemin-gifsicle';
-//import mozjpeg from 'imagemin-mozjpeg';
-//import optipng from 'imagemin-optipng';
 import liveServer from 'live-server';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
@@ -149,7 +144,7 @@ const mjmlToHtml = async () => {
     .pipe(gulp.dest('./dist'));
 };
 
-// Minification HTML----------------------------------------------------------------------------------------------------------------------
+// Minification HTML
 const minifyHtml = () => {
     return new Promise((resolve) => {
         // Petit délai pour s'assurer que les fichiers sont bien créés
@@ -192,7 +187,7 @@ const minifyHtml = () => {
     });
 };
 
-// Vérification du poids et des attributs alt--------------------------------------------------------------------------------
+// Vérification du poids et des attributs alt
 const customFilesize = () => {
     return through2.obj(function (file, _, cb) {
         if (file.isBuffer()) {
@@ -222,13 +217,12 @@ const verification = () => {
 };
 
 
-
-// Watch ------------------------------------------------------------------------------------------------------------------------------
+// Watch
 const watch = () => {
     gulp.watch('./src/**/*.pug', gulp.series(pugToMjml, mjmlToHtml, minifyHtml, verification,));
 };
 
-// Tâche par défaut---------------------------------------------------------------------------------------------------------------------
+// Tâche par défaut
 const defaultTask = gulp.series(
     cleanDist,
     ensureDistDirectory, // Ajoutez cette tâche ici
